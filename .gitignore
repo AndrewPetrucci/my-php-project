@@ -1,0 +1,42 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# Doctrine generated files
+/proxies/
+/cache/
+
+# Local databases (if any)
+*.sqlite
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Windows thumbnail cache
+ehthumbs.db
+Desktop.ini
+
+# IDE / editor
+.idea/
+*.iml
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+
+# PHPUnit / test cache (optional)
+.phpunit.result.cache
+
+# Node modules (if any front-end tooling used)
+node_modules/
